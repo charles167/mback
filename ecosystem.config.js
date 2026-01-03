@@ -5,7 +5,7 @@ module.exports = {
       script: './server.js',
       instances: 1,
       exec_mode: 'fork',
-      env: {
+      env_dev: {
         NODE_ENV: 'dev',
         PORT: 5000
       },
